@@ -1,0 +1,6 @@
+# Ignore active connection configurations containing private IPs/credentials
+sync.conf
+*.pyc
+__pycache__/
+.DS_Store
+original_scripts/

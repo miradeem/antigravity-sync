@@ -1,0 +1,24 @@
+# Antigravity Sync Configuration
+# Copy this file to sync.conf and edit with your remote machine credentials.
+
+# Remote host IP address or hostname
+REMOTE_HOST="192.168.1.50"
+
+# Remote username on the target machine
+REMOTE_USER="your_username"
+
+# Remote SSH Port (default: 22)
+REMOTE_PORT="22"
+
+# Optional: Path to custom SSH Identity file (leave empty to use default ~/.ssh keys or password)
+SSH_KEY=""
+
+# ------------------------------------------------------------------------------
+# Sidebar Chat Tagging
+# ------------------------------------------------------------------------------
+# Automatically tag imported chats in the sidebar so you can tell them apart
+# Examples: "[Remote] ", "[Linux] ", "[Synced] ", or leave blank "" to disable.
+SYNC_TAG_PREFIX="[Remote] "
+
+# Suffix to append to chat titles (e.g. " (Remote)", or leave blank "")
+SYNC_TAG_SUFFIX=""
